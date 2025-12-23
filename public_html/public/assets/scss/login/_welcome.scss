@@ -1,0 +1,49 @@
+.welcome-page {
+    .logo {
+        max-width: 535px;
+        height: auto;
+    }
+    .welcome-box {
+        width: 535px;
+    }
+    .btn-layout {
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 75px;
+        a {
+            outline: none;
+        }
+        .btn-welcome {
+            width: 300px;
+            height: 75px;
+            line-height: 75px;
+            font-size: 21px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 37.5px;
+            margin: 0.5rem;
+            padding: 0;
+            color: #FFFFFF !important;
+            &:focus {
+                box-shadow: none !important;
+            }
+            &:hover {
+                background: $thm-base-color-2;
+                border: 2px solid #6ACDAA;
+            }
+        }
+    }
+}
+@media(max-width:560px){
+  .welcome-page {
+    .logo {
+        max-width: 100%;
+    }
+    .welcome-box {
+        width: 100%;
+    }
+}
+}

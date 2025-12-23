@@ -1,0 +1,671 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202506 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.epa.aitoilethub.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2002                
+POS_TIME 2680                
+POS_VISITOR 10311               
+POS_DAY 14345               
+POS_DOMAIN 3408                
+POS_LOGIN 3642                
+POS_ROBOT 3797                
+POS_WORMS 4251                
+POS_EMAILSENDER 4382                
+POS_EMAILRECEIVER 4525                
+POS_SESSION 14928               
+POS_SIDER 15135               
+POS_FILETYPES 4660                
+POS_DOWNLOADS 4960                
+POS_OS 5008                
+POS_BROWSER 5183                
+POS_SCREENSIZE 5664                
+POS_UNKNOWNREFERER 5738                
+POS_UNKNOWNREFERERBROWSER 6012                
+POS_ORIGIN 6094                
+POS_SEREFERRALS 6236                
+POS_PAGEREFS 6398                
+POS_SEARCHWORDS 6578                
+POS_KEYWORDS 6730                
+POS_MISC 2343                
+POS_ERRORS 6789                
+POS_CLUSTER 3498                
+POS_SIDER_404 6934                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250630233611 194 54599 9682903854026
+FirstTime 20250608152152
+LastTime 20250630230426
+LastUpdate 20250701033005 0 0 0 0 0
+TotalVisits 125                 
+TotalUnique 88                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 100                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 36 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 4 9876 2 4 26658
+1 0 0 0 0 0 0
+2 0 0 0 3 11 51756
+3 0 0 0 0 0 0
+4 2 2 9229 1 1 6339
+5 0 0 0 1 1 3914
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 117 204 37317309 25 44 224734
+9 61 109 20239896 16 37 206426
+10 490 786 45409520 31 36 180094
+11 82 163 22303706 19 21 94409
+12 32 84 7892581 9 10 78816
+13 134 446 48122829 26 30 125973
+14 321 809 51381301 38 49 310321
+15 437 687 44642766 31 41 228176
+16 240 342 24137821 57 70 378548
+17 127 208 29387835 28 34 180994
+18 9 52 582280 7 11 72843
+19 0 0 0 2 14 220061
+20 4 7 24133 2 20 132604
+21 7 19 3831947 1 1 2196
+22 1 1 2524 3 4 28356
+23 6 16 3974117 17 17 107856
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2072 3939 339269670
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+facebookexternalhit/ 34 169381 20250630111556 0
+python 13 305328 20250629191047 0
+bot[\s_+:,\.\;\/\\-] 12 84668 20250617150406 4
+curl 3 19017 20250626023920 0
+no_user_agent 2 10253 20250622044131 0
+custo 2 7828 20250621162639 0
+unknown 2 48 20250616021414 2
+MJ12bot/ 2 48 20250614163139 2
+netcraft 1 1145 20250630233611 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+jpeg 3 217092 0 0
+png 537 12904001 0 0
+jpg 17 1130367 0 0
+css 160 1611302 0 0
+html 5 24225 0 0
+js 423 133054470 0 0
+php 472 3269281 0 0
+Unknown 1529 81090039 0 0
+gif 13 23496 0 0
+json 60 43200 0 0
+map 6 13068 0 0
+svg 714 105889129 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx15 7 2
+ios_iphone 6 6
+macosx10 1 1
+Unknown 17 5
+linux 10 6
+android 23 4
+win10 3842 2035
+android10 33 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+chrome109.0.5414.120 1 1
+chrome113.0.0.0 15 7
+chrome78.0.3904.108 9 9
+chrome120.0.0.0 1 0
+mozilla 17 5
+safari13.0.3 6 6
+firefox138.0 1 1
+chrome106.0.0.0 1 1
+chrome137.0.7151.115 10 1
+chrome101.0.4951.64 1 1
+chrome137.0.0.0 3509 1793
+safari17.2 1 1
+chrome132.0.0.0 1 1
+chrome133.0.0.0 6 3
+chrome109.0.0.0 84 38
+chrome136.0.0.0 13 1
+chrome130.0.0.0 16 5
+firefox127.0 1 1
+chrome129.0.0.0 1 1
+chrome138.0.0.0 243 195
+firefox137.0 2 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250618174537
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250620214027
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 100 128
+From1 0 0
+From2 1 1
+From3 95 95
+From4 1876 3715
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_de 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://esms.moenv.gov.tw 95 95
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+404 124 859467
+500 62 503137
+401 2 20396
+301 20 10890
+302 141 471252
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 57
+/wp-includes/alfacgiapi 1 http://epa.aitoilethub.com/wp-includes/alfacgiapi/
+/assets/plugins/mdbootstrap/css/bootstrap.min.css.map 8 -
+/wp-admin/alfacgiapi 1 http://epa.aitoilethub.com/wp-admin/alfacgiapi/
+/tmp_images/alfacgiapi 1 http://epa.aitoilethub.com/tmp_images/alfacgiapi/
+/cgi-bin/ALFA_DATA/alfacgiapi/ 1 -
+/Telerik.Web.UI.WebResource.axd 1 -
+/wp-admin/css/about.php/alfacgiapi 1 http://epa.aitoilethub.com/wp-admin/css/about.php/alfacgiapi/
+/.well-known/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/.well-known/ALFA_DATA/alfacgiapi/
+/files/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/files/ALFA_DATA/alfacgiapi/
+/wp-content/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/wp-content/ALFA_DATA/alfacgiapi/
+/deployment-config.json 1 -
+/alfacgiapi 1 http://epa.aitoilethub.com/alfacgiapi/
+/https://epa.aitoilethub.com/favicons/favicon-32x32.png 1 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/wordpress/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/wordpress/ALFA_DATA/alfacgiapi/
+/images/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/images/ALFA_DATA/alfacgiapi/
+/web/wp-includes/wlwmanifest.xml 3 -
+/2019/wp-includes/wlwmanifest.xml 3 -
+/test/wp-includes/wlwmanifest.xml 3 -
+/https://epa.aitoilethub.com/favicons/favicon-16x16.png 1 -
+/security.txt 1 -
+/assets/js/index.js.map 2 -
+/components/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/components/ALFA_DATA/alfacgiapi/
+/android-icon-144x144.png 2 https://epa.aitoilethub.com/dashboard
+/config.json 1 -
+/assets/js/mdb.es.min.js.map 6 -
+/xmlrpc.php 3 -
+/favicons/apple-touch-icon.png 1 https://epa.aitoilethub.com/dashboard
+/blog/wp-includes/wlwmanifest.xml 3 -
+/2018/wp-includes/wlwmanifest.xml 3 -
+/site/wp-includes/wlwmanifest.xml 3 -
+/sftp-config.json 1 -
+/ads.txt 2 -
+/wp-login.php 1 -
+/website/wp-includes/wlwmanifest.xml 3 -
+/shop/wp-includes/wlwmanifest.xml 3 -
+/wp/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/wp/ALFA_DATA/alfacgiapi/
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/zg%16l%EF%BF%BD%EF%BF%BD%060%EF%BF%BDs%EF%BF%BD 16 -
+/wp-content/themes/seotheme/db.php 1 -
+/wp-content/alfacgiapi 1 http://epa.aitoilethub.com/wp-content/alfacgiapi/
+/media/wp-includes/wlwmanifest.xml 3 -
+/wp2/wp-includes/wlwmanifest.xml 3 -
+/wp-admin/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/wp-admin/ALFA_DATA/alfacgiapi/
+/upload/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/upload/ALFA_DATA/alfacgiapi/
+/news/wp-includes/wlwmanifest.xml 3 -
+/wp1/wp-includes/wlwmanifest.xml 3 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/assets/upload/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/assets/upload/ALFA_DATA/alfacgiapi/
+/wp-includes/wlwmanifest.xml 3 -
+/ALFA_DATA/alfacgiapi 1 -
+/uploads/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/uploads/ALFA_DATA/alfacgiapi/
+/css/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/css/ALFA_DATA/alfacgiapi/
+/blog/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/blog/ALFA_DATA/alfacgiapi/
+/wp-includes/ALFA_DATA/alfacgiapi 1 http://epa.aitoilethub.com/wp-includes/ALFA_DATA/alfacgiapi/
+/sito/wp-includes/wlwmanifest.xml 3 -
+/sftp.json 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 100
+211.75.1.168 1017 2120 79026574 20250624210953
+61.231.201.11 213 264 12306618 20250627162820
+61.223.46.12 130 167 7236266 20250619153210
+61.220.126.228 71 91 3945336 20250625170718
+61.220.105.7 37 91 13881984 20250626133540
+49.216.41.180 33 64 5955063 20250618155619
+223.200.105.175 32 55 5164785 20250610112939
+124.199.101.229 29 52 3885712 20250611112511
+117.56.148.49 28 69 15346824 20250626100112
+36.232.150.162 26 55 7668761 20250626163901
+211.22.163.170 5 14 3802819 20250609115740
+159.203.175.51 1 1 4621 20250624045125
+104.248.158.136 3 3 11742 20250621084502
+203.217.106.46 7 18 3833036 20250608152154
+36.237.86.169 4 4 639349 20250627150716
+54.202.67.252 1 1 720 20250624131751
+118.163.136.68 1 4 2214533 20250611101931
+54.200.5.221 1 1 6297 20250624131750
+87.236.176.193 0 1 7334 
+49.214.255.151 2 2 6804 20250629183237
+49.214.255.24 2 2 6808 20250618181245
+117.56.214.145 11 21 4451167 20250626152631
+104.236.41.202 1 1 2955 20250623185908
+199.45.154.119 1 4 12388 20250618174529
+205.169.39.38 1 1 2523 20250610102515
+61.220.138.26 9 27 6174620 20250626132526
+161.35.28.255 2 4 9876 20250617003728
+36.237.68.17 15 33 8253509 20250626173449
+185.247.137.128 0 1 7334 
+36.238.122.189 5 5 641557 20250610090433
+71.6.134.235 1 2 11946 20250617084809
+124.199.104.234 7 18 3833038 20250619144644
+87.236.176.82 0 1 1323 
+36.232.134.32 14 32 8274062 20250619094240
+1.168.234.202 13 22 5081514 20250618152934
+36.236.34.178 12 12 1287240 20250623104505
+114.40.206.15 5 14 3802823 20250609101804
+143.244.57.86 3 3 11742 20250620201928
+49.217.126.161 22 40 7467867 20250629163457
+223.200.105.181 20 42 8309463 20250617081647
+61.223.38.199 1 9 1122333 20250610143037
+37.187.26.72 1 1 4609 20250609232900
+118.167.251.133 4 4 639350 20250624095307
+111.71.31.28 5 25 2445581 20250623103909
+220.130.209.149 13 31 7613636 20250630095318
+180.177.30.49 1 8 820233 20250627144346
+87.236.176.61 0 1 1323 
+36.232.137.48 5 14 3813543 20250630102139
+185.247.137.54 0 1 1535 
+36.236.4.49 6 6 643620 20250619170937
+71.6.134.230 1 2 11942 20250610183652
+35.91.162.189 2 2 12594 20250624131756
+104.131.12.22 1 1 4609 20250618215301
+117.56.143.211 1 1 720 20250620135432
+49.214.255.131 2 2 6809 20250622155503
+34.212.242.100 0 1 319 
+60.249.86.24 4 4 639347 20250616170141
+44.246.183.89 0 1 9154478 
+114.26.174.109 5 14 3802820 20250610175100
+35.164.254.194 1 1 6297 20250624131754
+64.225.25.73 1 1 4610 20250624112151
+35.88.106.158 0 1 166 
+52.40.113.36 0 1 155648 
+185.247.137.35 0 1 1535 
+94.159.110.45 1 1 2524 20250618220333
+111.241.133.180 5 14 3802817 20250630230426 20250630230424 /favicons/manifest.json
+35.88.70.185 1 2 57816 20250624131740
+117.56.231.155 7 7 644923 20250619084834
+117.56.239.243 17 35 6195966 20250618151355
+87.236.176.219 1 1 4609 20250620214026
+125.224.127.144 6 6 643438 20250623083723
+117.56.151.43 6 6 644199 20250612085542
+54.212.38.90 0 2 1427 
+211.23.16.25 5 14 3810453 20250616173636
+1.174.21.42 16 43 9980554 20250611145739
+210.201.90.135 8 18 3809433 20250630095318
+188.166.155.211 2 4 9877 20250630153427
+206.168.34.66 2 5 17758 20250618171817
+71.6.134.231 1 2 11943 20250624180610
+61.222.155.164 1 9 1122332 20250610102508
+91.239.157.217 3 3 11742 20250626092816
+114.40.213.157 5 14 3802817 20250626124519
+117.56.150.185 23 25 2577913 20250625084842
+125.224.85.209 6 6 643441 20250610170559
+220.132.76.110 5 14 3810452 20250626175613
+161.35.186.67 1 1 4608 20250619045823
+117.56.151.23 24 35 5762732 20250624093937
+61.58.150.97 7 17 3808711 20250627174155
+124.199.99.233 19 30 5142344 20250610154500
+36.236.48.250 13 24 4480778 20250618081823
+61.58.150.99 7 17 3808711 20250630135519
+117.56.143.205 4 4 639350 20250620135504
+101.139.16.126 9 18 4442167 20250616144016
+87.236.176.154 1 1 2199 20250620201117
+35.85.216.181 1 2 50355 20250624131759
+124.199.105.41 13 31 8244276 20250630115015
+170.39.218.62 0 1 166691 
+61.58.150.128 7 17 3808715 20250624094751
+61.220.126.44 5 14 3802814 20250627085320
+95.182.100.70 1 1 2195 20250624122851
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20250608 7 18 3833036 1
+20250609 15 50 10028817 4
+20250610 514 1012 35732750 13
+20250611 61 125 21282405 7
+20250612 72 207 10207743 6
+20250613 2 43 541828 1
+20250616 42 114 24058194 5
+20250617 39 80 17211385 6
+20250618 104 213 25349231 12
+20250619 155 212 16175276 6
+20250620 88 349 25571081 10
+20250621 3 3 11742 1
+20250622 2 2 6809 1
+20250623 456 651 17580497 6
+20250624 77 159 37455171 19
+20250625 116 167 17955371 4
+20250626 62 155 37289435 9
+20250627 198 254 11819929 5
+20250629 24 42 7474671 2
+20250630 35 83 19684299 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 2
+30s-2mn 5
+1h+ 4
+15mn-30mn 3
+2mn-5mn 3
+30mn-1h 3
+0s-30s 104
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 210
+/3b1fa872ca79a57a17c3aaa033fbf0e0/ 407 2962801 3 2
+/dashboard/operational_score 132 213237 0 22
+/dashboard/process_score 132 207454 0 5
+/dashboard 123 76829816 76 1
+/dashboard/locations 119 493120 0 4
+/locations_data 67 897320 0 1
+/locations 63 329765 0 0
+/favicons/manifest.json 60 43200 4 9
+/ 50 173617 26 22
+/dashboard/abnormal_data 36 73323 0 0
+/locations/12/toilets 3 14386 0 0
+/toilets/69/sensors/5/human_traffic_logs/log_data 2 3331 0 0
+/locations/4/sensors/hand_lotion_sensor_data 2 3118 0 0
+/locations/2/sensors/human_traffic_sensor_data 4 7916 0 0
+/locations/10/sensors/relative_humidity_sensor_data 2 3116 0 0
+/daily_toilet/77/hand_lotion 1 3651 0 0
+/locations/21/sensors/relative_humidity_sensor_data 2 3116 0 0
+/daily_toilet/69/temp_humidity 2 5227 0 0
+/locations/2/sensors/smelly_sensor_data 4 8232 0 0
+/api_and_serves 1 4683 0 0
+/locations/16/sensors 1 4806 0 0
+/locations/15/sensors/toilet_paper_sensor_data 2 3774 0 0
+/dashboard/13/toilets 2 4744 0 0
+/toilets/92/human_traffic_sensors/36 2 10848 0 0
+/toilets/77/sensors/15/smelly_logs/log_data 3 4674 0 0
+/vstats/nav.html 2 2002 0 0
+/locations/8/sensors/temperature_sensor_data 2 5203 0 0
+/users_data 4 49092 0 0
+/toilets/92/sensors/36/human_traffic_logs/log_data 3 4674 0 0
+/dashboard/14/toilets 2 3886 0 0
+/locations/12/sensors 7 33690 0 0
+/toilets/77/sensors/14/human_traffic_logs/log_data 3 4674 0 0
+/daily_toilet/77/smelly 1 3622 0 0
+/locations/19/sensors/toilet_paper_sensor_data 3 7152 0 0
+/locations/2/sensors/temperature_sensor_data 4 6232 0 0
+/daily_toilet/77/human_traffic 1 2293 0 0
+/locations/21/sensors/hand_lotion_sensor_data 2 3118 0 0
+/dashboard/human_traffic_daily_data 36 82548 0 0
+/locations/6/sensors 3 15568 0 0
+/locations/15/sensors/hand_lotion_sensor_data 2 5507 0 0
+/locations/12/toilets/69/edit 2 4022 0 0
+/dashboard/18/toilets 6 11154 0 6
+/locations/6/sensors/toilet_paper_sensor_data 3 5169 0 0
+/toilets/69/smelly_sensors/sensor_data 1 2326 0 0
+/dashboard/19/toilets 1 1860 0 0
+/locations/23/sensors 1 4839 0 0
+/dashboard/improve_data 36 73323 0 2
+/locations/10/sensors/temperature_sensor_data 2 3116 0 0
+/locations/22/sensors/relative_humidity_sensor_data 3 4674 0 0
+/dashboard/6/locations 4 10975 0 0
+/assets/css/frontend/style.css.map 2 2846 0 0
+/assets/css/backend/style.css.map 1 1613 0 0
+/locations/21/sensors/temperature_sensor_data 2 5203 0 0
+/locations/12/toilet_data 4 12936 0 0
+/dashboard/1/locations 2 3733 0 0
+/toilets/77/sensors/14/human_traffic_logs/chart_data 1 1515 0 0
+/dashboard/21/toilets 1 1860 0 0
+/locations/16/sensors/toilet_paper_sensor_data 1 2367 0 0
+/toilets/69/human_traffic_sensors 1 5497 0 0
+/locations/20/sensors/toilet_paper_sensor_data 1 2208 0 0
+/locations/15/toilet_data 2 5326 0 0
+/locations/19/sensors/hand_lotion_sensor_data 3 6522 0 0
+/locations/20/sensors/hand_lotion_sensor_data 1 1858 0 0
+/locations/14/sensors/temperature_sensor_data 1 1558 0 0
+/dashboard/1/toilets 6 12252 0 2
+/locations/14/sensors/hand_lotion_sensor_data 1 1559 0 0
+/dashboard/12/locations 3 4545 0 0
+/vstats/2025-06/ 2 18942 0 0
+/locations/14/sensors/toilet_paper_sensor_data 1 1897 0 0
+/locations/21/sensors/toilet_paper_sensor_data 2 3818 0 0
+/locations/12/sensors/relative_humidity_sensor_data 7 10906 0 0
+/daily_toilet/77/temp_humidity 1 3657 0 0
+/locations/3/toilets 1 4782 0 0
+/locations/12/sensors/human_traffic_sensor_data 7 14030 0 0
+/assets/css/login/style.css.map 3 8609 0 0
+/locations/4/sensors/relative_humidity_sensor_data 2 3116 0 0
+/daily_toilet/92/temp_humidity 3 4710 0 0
+/locations/20/sensors 1 5948 0 0
+/locations/15/sensors/temperature_sensor_data 2 3116 0 0
+/locations/19/sensors/temperature_sensor_data 3 6761 0 0
+/locations/18/sensors/relative_humidity_sensor_data 2 3116 0 0
+/locations/22/sensors/toilet_paper_sensor_data 3 5700 0 0
+/dashboard/10/toilets 5 10290 0 3
+/dashboard/11/locations 8 14382 0 0
+/dashboard/temp_humidity_data 36 69042 0 0
+/locations/6/sensors/smelly_sensor_data 3 5718 0 0
+/locations/16/sensors/smelly_sensor_data 1 3805 0 0
+/toilets/69/human_traffic_sensors/sensor_data 1 2323 0 0
+/locations/19/sensors/smelly_sensor_data 3 8246 0 0
+/locations/19/sensors/relative_humidity_sensor_data 3 4674 0 0
+/daily_toilet/92/smelly 3 4605 0 0
+/locations/2/sensors/hand_lotion_sensor_data 4 6236 0 0
+/locations/16/sensors/temperature_sensor_data 1 1558 0 0
+/locations/8/sensors/human_traffic_sensor_data 2 4008 0 0
+/locations/6/sensors/relative_humidity_sensor_data 3 4674 0 0
+/locations/23/sensors/toilet_paper_sensor_data 1 1869 0 0
+/locations/12/sensors/hand_lotion_sensor_data 7 10913 0 0
+/locations/15/sensors/smelly_sensor_data 2 3442 0 0
+/locations/6/sensors/temperature_sensor_data 3 4674 0 0
+/locations/22/sensors/smelly_sensor_data 3 5181 0 0
+/daily_toilet/92/toilet_paper 3 4605 0 0
+/locations/6/sensors/hand_lotion_sensor_data 3 6764 0 0
+/locations/8/sensors/relative_humidity_sensor_data 2 3116 0 0
+/locations/10/sensors/smelly_sensor_data 2 5018 0 0
+/dashboard/16/locations 5 9410 0 0
+/locations/18/sensors/smelly_sensor_data 2 3796 0 0
+/locations/23/sensors/temperature_sensor_data 1 1558 0 0
+/locations/4/sensors/smelly_sensor_data 2 5883 0 0
+/locations/23/sensors/hand_lotion_sensor_data 1 1559 0 0
+/toilets/69/toilet_paper_sensors/sensor_data 2 3116 0 0
+/locations/16/sensors/relative_humidity_sensor_data 1 1558 0 0
+/locations/10/sensors 2 10756 0 0
+/vstats/2025-06/allhosts.html 1 3281 0 0
+/contact 1 4621 1 1
+/locations/15/toilets/92 1 4927 0 0
+/toilets/77/sensors/15/smelly_logs/chart_data 1 1515 0 0
+/locations/23/sensors/human_traffic_sensor_data 1 1813 0 0
+/locations/20/sensors/relative_humidity_sensor_data 1 1558 0 0
+/dashboard/hand_lotion_data 36 64652 0 0
+/locations/15/sensors/relative_humidity_sensor_data 2 3116 0 0
+/locations/18/sensors/hand_lotion_sensor_data 2 3118 0 0
+/locations/10/sensors/toilet_paper_sensor_data 2 6104 0 0
+/locations/8/sensors/toilet_paper_sensor_data 2 3118 0 0
+/dashboard/13/locations 2 3030 0 0
+/locations/12/sensors/toilet_paper_sensor_data 7 10913 0 0
+/locations/12/sensors/smelly_sensor_data 7 13377 0 1
+/locations/2/sensors/relative_humidity_sensor_data 4 8319 0 0
+/dashboard/2/toilets 3 5775 0 1
+/dashboard/14/locations 5 13487 0 0
+/login 27 101878 15 14
+/dashboard/3/toilets 9 17649 0 9
+/daily_toilet/92/human_traffic 3 6879 0 0
+/locations/18/sensors/temperature_sensor_data 2 3116 0 0
+/locations/21/sensors/smelly_sensor_data 2 4136 0 0
+/daily_toilet/77/toilet_paper 1 1535 0 0
+/locations/6/sensors/human_traffic_sensor_data 3 5502 0 0
+/dashboard/8/locations 10 22410 0 1
+/dashboard/toilet_paper_data 36 64148 0 0
+/dashboard/18/locations 21 67174 0 2
+/location_audit_records_data 2 3030 0 0
+/daily_toilet/92/hand_lotion 3 4692 0 0
+/dashboard/17/locations 1 1879 0 1
+/dashboard/19/locations 1 1515 0 0
+/locations/18/sensors/toilet_paper_sensor_data 2 3118 0 0
+/locations/8/sensors 2 10770 0 0
+/toilets/77/human_traffic_sensors/14 1 5441 0 0
+/dashboard/7/locations 3 5610 0 0
+/locations/14/sensors/human_traffic_sensor_data 1 1984 0 0
+/3b1fa872ca79a57a17c3aaa033fbf0e0/js/messages.php 13 131131 0 1
+/vstats/ 2 1732 0 0
+/dashboard/21/locations 1 3602 0 0
+/daily_toilet/69/smelly 2 3070 0 0
+/toilets/69/smelly_sensors 1 5514 0 0
+/toilets/77/smelly_sensors/15 1 5438 0 0
+/locations/20/sensors/smelly_sensor_data 1 1718 0 0
+/locations/19/sensors 3 15571 0 0
+/locations/14/sensors/relative_humidity_sensor_data 1 1558 0 0
+/locations/4/sensors/temperature_sensor_data 2 3116 0 0
+/toilets/69/toilet_paper_sensors 2 11052 0 0
+/daily_toilet/69/toilet_paper 2 3070 0 0
+/locations/15/sensors 2 10740 0 0
+/locations/8/sensors/smelly_sensor_data 2 5551 0 0
+/locations/18/sensors 2 10784 0 0
+/locations/23/sensors/relative_humidity_sensor_data 1 1558 0 0
+/locations/10/sensors/hand_lotion_sensor_data 2 3118 0 0
+/locations/3/toilet_data 2 6492 0 0
+/daily_toilet/69/human_traffic 2 4586 0 0
+/locations/22/sensors/hand_lotion_sensor_data 3 5148 0 0
+/dashboard/12/toilets 17 34867 0 1
+/dashboard/7/toilets 3 5412 0 0
+/locations/20/sensors/human_traffic_sensor_data 1 1694 0 0
+/locations/4/sensors/human_traffic_sensor_data 2 3688 0 0
+/dashboard/4/locations 9 16947 0 0
+/locations/12/sensors/temperature_sensor_data 7 10906 0 0
+/locations/21/sensors 2 10800 0 0
+/dashboard/human_traffic_monthly_data 36 61854 0 0
+/locations/12/toilets/69 2 9944 0 0
+/daily_toilet/69/hand_lotion 2 5215 0 0
+/locations/4/sensors 2 10758 0 0
+/dashboard/8/toilets 8 15520 0 6
+/locations/14/sensors/smelly_sensor_data 1 1894 0 0
+/locations/10/sensors/human_traffic_sensor_data 2 4424 0 0
+/toilets/69/human_traffic_sensors/5 1 5459 0 0
+/dashboard/toilet_paper_refill_data 36 67062 0 0
+/locations/16/sensors/human_traffic_sensor_data 1 1824 0 0
+/locations/8/sensors/hand_lotion_sensor_data 2 3118 0 0
+/locations/22/sensors/temperature_sensor_data 3 4674 0 0
+/dashboard/2/locations 9 23661 0 0
+/locations/15/toilets 1 4775 0 0
+/locations/4/sensors/toilet_paper_sensor_data 2 3118 0 0
+/dashboard/11/toilets 11 19910 0 5
+/dashboard/smelly_data 36 66235 0 1
+/locations/14/sensors 1 4817 0 0
+/locations/20/sensors/temperature_sensor_data 1 1558 0 0
+/home 5 32743 0 1
+/locations/2/sensors/toilet_paper_sensor_data 4 6236 0 0
+/locations/18/sensors/human_traffic_sensor_data 2 3708 0 0
+/locations/22/sensors 3 14454 0 0
+/locations/15/sensors/human_traffic_sensor_data 2 3660 0 0
+/locations/2/sensors 4 22719 0 0
+/locations/19/sensors/human_traffic_sensor_data 3 5082 0 0
+/toilets/69/sensors/5/human_traffic_logs/2752327 1 1574 0 0
+/api_and_serves_data 3 46595 0 0
+/locations/23/sensors/smelly_sensor_data 1 1871 0 0
+/locations/3/toilets/77 1 4943 0 0
+/dashboard/hand_lotion_refill_data 36 64975 0 0
+/locations/16/sensors/hand_lotion_sensor_data 1 1856 0 0
+/locations/21/sensors/human_traffic_sensor_data 2 3400 0 0
+/locations/22/sensors/human_traffic_sensor_data 3 5100 0 0
+/users 4 45745 0 0
+END_SIDER

@@ -1,0 +1,94 @@
+.date-picker {
+    width: 100% !important;
+    padding: 1rem;
+
+    .vc-focus:focus-within {
+        box-shadow: none !important;
+    }
+
+    .vc-disabled {
+        color: #E0E3E7 !important;
+        &:hover {
+            background-color: #FFF0F5 !important;
+        }
+    }
+
+    .vc-title {
+        color: #2FA7CD !important;
+        background: none !important;
+        font-size: 1.125rem !important;
+        font-weight: 600 !important;
+    }
+
+    .vc-weekday {
+        color: #2FA7CD !important;
+    }
+
+    .vc-highlight-content-solid {
+        color: #FFFFFF !important;
+    }
+
+    .vc-arrow {
+        width: 32px !important;
+        height: 32px !important;
+        background: #E6E6E6;
+        border-radius: 20px !important;
+        padding: 15% !important;
+    }
+
+    .vc-prev {
+        content: url(../../images/prev.svg);
+    }
+
+    .vc-next {
+        content: url(../../images/next.svg);
+    }
+}
+
+.vc-epa-color {
+    --vc-accent-50: #F0F9FF;
+    --vc-accent-100: #E0F2FE;
+    --vc-accent-200: #BAE6FD;
+    --vc-accent-300: #7DD3FC;
+    --vc-accent-400: #62C0DD;
+    --vc-accent-500: #52B7D6;
+    --vc-accent-600: #45B1D2;
+    --vc-accent-700: #3DAFD1;
+    --vc-accent-800: #36AFD3;
+    --vc-accent-900: #2FABD1;
+}
+
+.vc-light {
+    --vc-color: #AFAFAF !important;
+}
+
+.calendar {
+    .vc-focus:focus-within {
+        box-shadow: none !important;
+    }
+
+    .vc-nav-title {
+        background: none;
+    }
+
+    .vc-nav-item {
+        background: none;
+        font-weight: 500;
+    }
+
+    .vc-nav-arrow {
+        width: 28px !important;
+        height: 28px !important;
+        background: #E6E6E6;
+        border-radius: 18px !important;
+        padding: 2% !important;
+    }
+
+    .is-left {
+        content: url(../../images/prev.svg);
+    }
+
+    .is-right {
+        content: url(../../images/next.svg);
+    }
+}

@@ -1,0 +1,41 @@
+$thm-font: 'Poppins', '微軟正黑體';
+$thm-font-two: 'Satisfy';
+$thm-base-color: rgba(5, 24, 51, 70%);
+$thm-base-color-hover: #138FC3;
+$thm-base-color-2: #00FFCA;
+$thm-black: #000000;
+$thm-gray: #E6E6E6;
+$thm-bg: #F7F8F8;
+$thm-error: #FF5348;
+$thm-choose-light: #E8EBF0;
+$thm-choose-dark: #AFAFAF;
+$thm-text-color: #FFFFFF;
+$thm-modal-box-corner-size: 48px;
+$thm-section-box-corner-size: 20px;
+$right-side-corner-size: 16px;
+$search-box-corner-size: 10px;
+$thm-section-box-li-corner-size: 12px;
+$thm-section-box-li-corner-bg-size: 8px;
+
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        @content;
+    }
+
+    &::-moz-placeholder {
+        /* Firefox 19+ */
+        @content;
+    }
+
+    &:-ms-input-placeholder {
+        /* IE 10+ */
+        @content;
+    }
+
+    &:-moz-placeholder {
+        /* Firefox 18- */
+        @content;
+    }
+}

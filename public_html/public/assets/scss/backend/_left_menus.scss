@@ -1,0 +1,132 @@
+.sensor-menus {
+    flex-grow: 1;
+    background: #fff;
+    width: $thm-left-menu-width;
+    border-right: 5px solid #ECEFF4;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    >.nav {
+        width: 100%;
+        margin-top: 2rem;
+        .icon {
+            width: 30px;
+            height: 30px;
+            margin-right: .5rem;
+            &.toilet_paper {
+                content: url(../../images/sensor/sensor_toilet_paper.svg);
+            }
+            &.smelly {
+                content: url(../../images/sensor/sensor_smelly.svg);
+            }
+            &.human_traffic {
+                content: url(../../images/sensor/sensor_human_traffic.svg)
+            }
+            &.hand_lotion {
+                content: url(../../images/sensor/sensor_hand_lotion.svg);
+            }
+            &.temperature {
+                content: url(../../images/sensor/sensor_temp.svg);
+            }
+            &.relative_humidity {
+                content: url(../../images/sensor/sensor_humidity.svg);
+            }
+        }
+        display: flex;
+        flex-direction: column;
+        .nav-item {
+            width: 100%;
+        }
+        .nav-link {
+            color: #A0A0A0;
+            padding: 0.5rem 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.25rem;
+            width: 100%;
+            overflow:hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            &.active, &.active:focus, &.active:hover, &.has-children:hover {
+                .icon {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: .75rem;
+                    &.toilet_paper {
+                        content: url(../../images/sensor/sensor_toilet_paper_active.svg);
+                    }
+                    &.smelly {
+                        content: url(../../images/sensor/sensor_smelly_active.svg);
+                    }
+                    &.human_traffic {
+                        content: url(../../images/sensor/sensor_human_traffic_active.svg)
+                    }
+                    &.hand_lotion {
+                        content: url(../../images/sensor/sensor_hand_lotion_active.svg);
+                    }
+                    &.temperature {
+                        content: url(../../images/sensor/sensor_temp_active.svg);
+                    }
+                    &.relative_humidity {
+                        content: url(../../images/sensor/sensor_humidity_active.svg);
+                    }
+                }
+                position: relative;
+                background: #D5EEF6;
+                color: $thm-base-color;
+                font-weight: 600;
+                &::after, &::before {
+                    content: "";
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 11px;
+                    height: 100%;
+                    position: absolute;
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='55' viewBox='0 0 11 55' fill='none'%3E%3Cpath d='M5.09436 45.0995C-1.70379 33.7025 -1.47168 19.4411 5.69375 8.27142L10.9999 2.02722e-07L10.9999 55L5.09436 45.0995Z' fill='%232FABD1'/%3E%3C/svg%3E");
+                    background-size: 100% auto;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    top: 0;
+                }
+                &::after {
+                    right: 0;
+                }
+                &::before {
+                    left: 0;
+                    transform: scaleX(-1);
+                }
+            }
+        }
+    }
+    .nav-treeview {
+        background: #F7F8F8;
+        display: none;
+        &.show {
+            display: flex;
+        }
+        .nav-treeview-item {
+            background: transparent;
+            width: 100%;
+        }
+        .nav-treeview-link {
+            color: #A0A0A0;
+            justify-content: center;
+            padding: 0.5rem 1rem;
+            display: flex;
+            align-items: center;
+            font-size: 0.875rem;
+            width: 100%;
+            overflow:hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            &.active, &.active:focus, &.active:hover {
+                color: $thm-base-color;
+                font-weight: 600;
+            }
+        }
+    }
+    .nav-treeview>.nav-item>.nav-link.active, .nav-treeview>.nav-item>.nav-link.active:focus, .nav-treeview>.nav-item>.nav-link.active:hover {
+        color: $thm-base-color;
+    }
+}

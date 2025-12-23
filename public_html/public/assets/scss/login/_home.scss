@@ -1,0 +1,109 @@
+.choose-container {
+    position: relative;
+    background: #E8EBF0;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    max-height: 750px;
+    width: 95%;
+    max-width: 1372px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .choose-topside {
+        background-image: url("../../../images/contact_topside.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 21.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .choose-box {
+        background: #FFFFFF;
+        box-shadow: 5px 5px 10px rgba(175, 175, 175, 0.5);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 46.6%;
+        height: 60%;
+        position: absolute;
+        top: 30%;
+        padding: 2rem 0 2rem 0;
+        .choose-text {
+            color: #138FC3;
+            font-size: 36px;
+            font-weight: 600;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .choose-info {
+            color: #000000;
+            font-size: 18px;
+            font-weight: 400;
+            white-space: nowrap;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .choose-groups {
+            padding: 0 2.5rem 0 2.5rem;
+            margin: 0;
+            .choose-group {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .group-content {
+                    padding: 1.5rem 0 1.5rem 0;
+                    margin: 0;
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 30px;
+                    background: #E8EBF0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .content-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 0.5rem;
+                    }
+                    .content-text {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 16px;
+                        color: #AFAFAF;
+                    }
+                }
+                a:hover .group-content {
+                    background: #138FC3;
+                    path {
+                        fill: #FFFFFF;
+                    }
+                    .content-text {
+                        color: #FFFFFF;
+                        border: none;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}

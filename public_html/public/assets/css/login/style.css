@@ -1,0 +1,617 @@
+@charset "UTF-8";
+[v-cloak] {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", "微軟正黑體";
+  height: 100vh;
+  min-height: 750px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../../../images/welcome_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+a:active,
+a:hover,
+a:focus,
+a:visited {
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+.h-70 {
+  height: 70%;
+}
+
+#footer {
+  position: absolute;
+  bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 0;
+  right: 0;
+}
+#footer .gov-logo {
+  height: 70px;
+  width: auto;
+  position: fixed;
+  bottom: 2rem;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -ms-flex-pack: center;
+}
+#footer .copy_text {
+  margin-top: 0.5rem;
+  color: #fff;
+  font-size: 12px;
+}
+
+.contact-container {
+  position: relative;
+  background: #E8EBF0;
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  height: 100%;
+  max-height: 750px;
+  max-width: 1372px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-container .contact-topside {
+  background-image: url("../../../images/contact_topside.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 21.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-container .body {
+  position: absolute;
+  bottom: 0;
+  top: 21.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-container .body .contact-box {
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 5px 10px rgba(175, 175, 175, 0.5);
+          box-shadow: 5px 5px 10px rgba(175, 175, 175, 0.5);
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 4.125rem;
+  gap: 1rem;
+}
+.contact-container .body .contact-box .contact-text {
+  color: #138FC3;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-container .body .contact-box .contact-info {
+  color: #000000;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1125rem;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-container .body .contact-box .contact-qrcode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.contact-container .body .contact-box .contact-qrcode img {
+  width: 33%;
+  min-width: 200px;
+  height: auto;
+  border-radius: 30px;
+}
+.contact-container .body .contact-box .contact-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.contact-container .body .contact-box .contact-btn .btn-back {
+  width: 270px;
+  height: 65px;
+  line-height: 65px;
+  background: #2FA7CD;
+  border-radius: 37.5px;
+  outline: none;
+  font-size: 21px;
+  color: #FFFFFF;
+  padding: 0;
+}
+.contact-container .body .contact-box .contact-btn .btn-back:hover {
+  color: #FFFFFF;
+}
+.contact-container .body .contact-box .contact-btn .btn-back:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.choose-container {
+  position: relative;
+  background: #E8EBF0;
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  max-height: 750px;
+  width: 95%;
+  max-width: 1372px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.choose-container .choose-topside {
+  background-image: url("../../../images/contact_topside.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 21.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.choose-container .choose-box {
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 5px 10px rgba(175, 175, 175, 0.5);
+          box-shadow: 5px 5px 10px rgba(175, 175, 175, 0.5);
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 46.6%;
+  height: 60%;
+  position: absolute;
+  top: 30%;
+  padding: 2rem 0 2rem 0;
+}
+.choose-container .choose-box .choose-text {
+  color: #138FC3;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.choose-container .choose-box .choose-info {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.choose-container .choose-box .choose-groups {
+  padding: 0 2.5rem 0 2.5rem;
+  margin: 0;
+}
+.choose-container .choose-box .choose-groups .choose-group {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.choose-container .choose-box .choose-groups .choose-group .group-content {
+  padding: 1.5rem 0 1.5rem 0;
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  background: #E8EBF0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.choose-container .choose-box .choose-groups .choose-group .group-content .content-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5rem;
+}
+.choose-container .choose-box .choose-groups .choose-group .group-content .content-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #AFAFAF;
+}
+.choose-container .choose-box .choose-groups .choose-group a:hover .group-content {
+  background: #138FC3;
+}
+.choose-container .choose-box .choose-groups .choose-group a:hover .group-content path {
+  fill: #FFFFFF;
+}
+.choose-container .choose-box .choose-groups .choose-group a:hover .group-content .content-text {
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.login-container {
+  position: relative;
+  background: #E8EBF0;
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  height: 100%;
+  max-height: 750px;
+  width: 100%;
+  max-width: 1372px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-container .login-leftside {
+  background: linear-gradient(160.51deg, #81E79D 5.54%, #138FC3 85.77%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 56.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 4rem 0 4rem 0;
+}
+.login-container .login-leftside .logo {
+  width: 76%;
+}
+.login-container .login-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 43.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0;
+  /* padding: 4rem 0 4rem 0; */
+}
+.login-container .login-box .welcome-text {
+  color: #138FC3;
+  font-size: 36px;
+  font-weight: 600;
+  max-width: 376px;
+  white-space: nowrap;
+}
+.login-container .login-box .login-form {
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 5px 10px rgba(175, 175, 175, 0.5);
+          box-shadow: 5px 5px 10px rgba(175, 175, 175, 0.5);
+  border-radius: 40px;
+  margin-top: 1rem;
+  max-width: 376px;
+  max-height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+.login-container .login-box .login-form .login-text {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.login-container .login-box .login-form .input-groups {
+  padding: 0;
+  margin: 2rem 0 2rem 0;
+}
+.login-container .login-box .login-form .input-groups .input-group {
+  padding: 0 3rem 0 3rem;
+  margin: 1rem 0 1rem 0;
+}
+.login-container .login-box .login-form .input-groups .input-group span {
+  font-size: 16px;
+  color: #AFAFAF;
+  width: 100%;
+}
+.login-container .login-box .login-form .input-groups .input-group .form-control {
+  padding: 0;
+  margin: 0;
+  margin-top: 1rem;
+  border: none;
+  border-bottom: 1px solid #AFAFAF;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+}
+.login-container .login-box .login-form .login-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.login-container .login-box .login-form .login-btn .btn-login {
+  width: 180px;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 12px;
+  background: #2FA7CD;
+  border-radius: 37.5px;
+}
+.login-container .login-box .login-form .login-btn .btn-login:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.login-container .login-box .size-info {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #A0A0A0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.login-container .login-box .size-info .size {
+  color: #2FABD1;
+}
+
+.welcome-page .logo {
+  max-width: 535px;
+  height: auto;
+}
+.welcome-page .welcome-box {
+  width: 535px;
+}
+.welcome-page .btn-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 75px;
+}
+.welcome-page .btn-layout a {
+  outline: none;
+}
+.welcome-page .btn-layout .btn-welcome {
+  width: 300px;
+  height: 75px;
+  line-height: 75px;
+  font-size: 21px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 37.5px;
+  margin: 0.5rem;
+  padding: 0;
+  color: #FFFFFF !important;
+}
+.welcome-page .btn-layout .btn-welcome:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.welcome-page .btn-layout .btn-welcome:hover {
+  background: #6ACDAA;
+  border: 2px solid #6ACDAA;
+}
+
+@media (max-width: 560px) {
+  .welcome-page .logo {
+    max-width: 100%;
+  }
+  .welcome-page .welcome-box {
+    width: 100%;
+  }
+}

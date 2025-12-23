@@ -1,0 +1,492 @@
+.btn.simple {
+
+    &.btn-edit,
+    &.btn-delete {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+        width: 20px;
+    }
+
+    &.btn-edit {
+        &::before {
+            content: url(../../images/btn_edit_simple.svg);
+            width: 20px;
+            height: 20px;
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: transparent !important;
+        }
+    }
+
+    &.btn-delete {
+        &::before {
+            content: url(../../images/btn_delete_simple.svg);
+            width: 20px;
+            height: 20px;
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: transparent !important;
+        }
+    }
+}
+
+.btn-logout {
+    padding: .2rem .75rem;
+    border-radius: 37.5px;
+    background-color: $thm-error;
+    color: #fff !important;
+    font-size: .875rem;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: $thm-error-hover;
+        opacity: 0.8;
+    }
+}
+.btn-self-password {
+    padding: .2rem .75rem;
+    border-radius: 37.5px;
+    background-color: #ff9800;
+    color: #fff !important;
+    font-size: .875rem;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: #ff9800;
+        opacity: 0.8;
+    }
+}
+.btn:disabled,
+.btn.disabled,
+fieldset:disabled .btn {
+    background-color: #BDBDBD;
+}
+
+.btn-edit,
+.btn-password,
+.btn-show,
+.btn-full,
+.btn-delete,
+.btn-restore,
+.btn-data,
+.btn-permission,
+.btn-disable {
+    padding: .2rem .75rem;
+    border-radius: 37.5px;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+.btn-common {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 10px 30px;
+    background-color: $thm-base-color;
+    border-radius: 50px;
+    color: #fff !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: $thm-base-color-hover !important;
+    }
+}
+.btn-edit {
+    background-color: $thm-base-color;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_edit.svg);
+        display: inline-block;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: $thm-base-color-hover !important;
+    }
+}
+
+.btn-add {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 10px 30px;
+    background-color: $thm-base-color;
+    border-radius: 50px;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_add.svg);
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: $thm-base-color-hover !important;
+    }
+}
+
+.btn-search {
+    border-radius: 37.5px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: $thm-base-color;
+    color: #fff !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: $thm-base-color-hover !important;
+    }
+}
+
+.btn-show {
+    background-color: $thm-base-color;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_show.svg);
+        display: inline-block;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: $thm-base-color-hover !important;
+    }
+}
+
+.btn-full {
+    background-color: $thm-base-color;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_show.svg);
+        display: inline-block;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: $thm-base-color-hover !important;
+    }
+}
+
+.btn-data {
+    background-color: $thm-base-color;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_data.svg);
+        display: inline-block;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: $thm-base-color-hover !important;
+    }
+}
+
+.btn-delete {
+    background-color: $thm-error;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_delete.svg);
+        display: inline-block;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $thm-error-hover !important;
+        color: #fff !important;
+    }
+}
+.btn-disable {
+    background-color: $thm-error;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_disable.svg);
+        display: inline-block;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $thm-error-hover !important;
+        color: #fff !important;
+    }
+}
+
+.btn-restore {
+    background-color: #ff9800;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_restore.svg);
+        display: inline-block;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #ff9800 !important;
+        color: #fff !important;
+    }
+}
+
+.btn-password {
+    background-color: #ff9800;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_edit.svg);
+        display: inline-block;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #ff9800 !important;
+        color: #fff !important;
+    }
+}
+
+.btn-permission {
+    background-color: #ff9800;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_edit.svg);
+        display: inline-block;
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #ff9800 !important;
+        color: #fff !important;
+    }
+}
+
+.btn-cancel {
+    background-color: $thm-choose-dark;
+    color: #fff !important;
+    border-radius: 22px;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.875rem;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $thm-choose-dark !important;
+        color: #fff !important;
+    }
+}
+
+.btn-save {
+    background-color: $thm-base-color;
+    color: #fff !important;
+    border-radius: 22px;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.875rem;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $thm-base-color-hover !important;
+        color: #fff !important;
+    }
+}
+
+.btn-upload {
+    background: linear-gradient(to right, #2fabd1 0%, #2fabd1 16.7%, #ffffff 16.7%, #ffffff 100%);
+    color: #000 !important;
+    border-radius: 21px;
+    width: 100%;
+    font-size: 1rem;
+    min-height: auto;
+    box-shadow: none;
+    padding: 0.3rem 0;
+    display: flex;
+    border: 1px solid #BDBDBD;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background: linear-gradient(to right, #2fabd1 0%, #2fabd1 16.7%, #ffffff 16.7%, #ffffff 100%);
+        border: 1px solid #BDBDBD !important;
+        box-shadow: none !important;
+        color: #000 !important;
+    }
+
+    .choose-text {
+        color: #FFF !important;
+        font-weight: 300;
+        padding: 0;
+    }
+
+    .file_name {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+.btn-show-info {
+    display: flex;
+    font-size: 1.125rem;
+    align-items: center;
+    color: #AFAFAF;
+
+    a {
+        color: #AFAFAF;
+    }
+
+    &::before {
+        content: url(../../images/btn_info_show.svg);
+        display: inline-block;
+        width: 14px;
+        height: 15px;
+        margin-right: 5px;
+        line-height: 1rem;
+    }
+}
+
+.btn-sensor {
+    padding: .625rem .75rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #C6C6C6;
+    color: #fff !important;
+    box-shadow: none;
+    &::before {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        margin-right: 5px;
+        content: "";
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* 調整背景圖片大小 */
+    }
+
+    &.btn-hand_lotion::before {
+        background-image: url(../../images/btn_hand_lotion.svg);
+    }
+
+    &.btn-toilet_paper::before {
+        background-image: url(../../images/btn_toilet_paper.svg);
+    }
+
+    &.btn-human_traffic::before {
+        background-image: url(../../images/btn_human_traffic.svg);
+    }
+
+    &.btn-smelly::before {
+        background-image: url(../../images/btn_smelly.svg);
+    }
+
+    &.btn-temperature::before {
+        background-image: url(../../images/btn_temp.svg);
+    }
+
+    &.btn-relative_humidity::before {
+        background-image: url(../../images/btn_humidity.svg);
+    }
+
+    &:hover,
+    &:active,
+    &.active {
+        color: #fff !important;
+        background-color: $thm-base-color !important;
+        box-shadow: none !important;
+    }
+    &:focus-visible {
+        background-color: #C6C6C6;
+    }
+}
+
+.btn-view-data {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 10px 30px;
+    background-color: $thm-base-color;
+    border-radius: 50px;
+    color: #fff !important;
+
+    &::before {
+        content: url(../../images/btn_view_data.svg);
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff !important;
+        background-color: $thm-base-color-hover !important;
+    }
+}

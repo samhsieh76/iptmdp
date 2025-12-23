@@ -1,0 +1,25 @@
+#footer {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 56px;
+    padding: .5rem;
+    flex-shrink: 0;
+    .logo {
+        position: absolute;
+        left: 40px;
+        bottom: 8px;
+        height: 40px;
+        content: url(../../images/backend_copy.png);
+    }
+    .copy_text {
+        font-size: 12px;color: #AFAFAF;
+        line-height: 1rem;
+    }
+}
+.sidebar #footer{
+    .logo {
+        left: calc($thm-left-menu-width * -1);
+    }
+}

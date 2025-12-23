@@ -1,0 +1,56 @@
+[v-cloak] {
+    display: none;
+}
+
+body {
+    font-family: 'Poppins', '微軟正黑體';;
+    height: 100vh;
+    min-height: 750px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../images/welcome_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+a:active,
+a:hover,
+a:focus,
+a:visited {
+    outline: none !important;
+    text-decoration: none !important;
+}
+.h-70 {
+    height: 70%;
+}
+#footer {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    right: 0;
+
+    .gov-logo {
+        height: 70px;
+        width: auto;
+        position: fixed;
+        bottom: 2rem;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+    }
+    .copy_text {
+        margin-top: .5rem;
+        color: #fff;
+        font-size: 12px;
+    }
+}
